@@ -6,3 +6,4 @@ SVM
 	c4 => max_iter 500
 	RandomizedPCA
 		c5 => max_iter 500 n_components 970
+
