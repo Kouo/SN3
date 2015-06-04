@@ -3,7 +3,8 @@ from sklearn import svm
 import numpy as np
 import pickle
 from sklearn.neighbors import KNeighborsClassifier as KNN
-
+from sklearn.cross_validation import KFold
+import theanets
 
 print( 'loading data')
 
@@ -17,13 +18,13 @@ print( 'loaded')
 print( ' +', X.shape[0], 'compounds')
 print( ' +', y.shape[1], 'proteins')
 
-from sklearn.cross_validation import KFold
-
-protein = 0
+protein = 2
 print( ' + model of protein', (protein+1))
 labels = y[:, protein].reshape(-1)
 labels[labels == -1] = 0
-for i in range(10):
+
+
+for i in range(20):
     #X_train, X_test, labels_train, labels_test = train_test_split(X, labels, test_size=0.20, random_state=42)
     kf = KFold(len(labels), 5 , random_state = None)
     sumR = 0.0

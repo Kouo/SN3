@@ -91,4 +91,19 @@ KNN n_neighbors= = 5 := 0.77926265141
 KNN n_neighbors= = 7 := 0.792962332477
 KNN n_neighbors= = 9 := 0.800215071653
 KNN n_neighbors= = 11 := 0.803035689044
-KNN n_neighbors= = 12 := 0.804915807564
+KNN n_neighbors= = 13 := 0.804915807564
+KNN n_neighbors= = 15 := 0.805856035905
+KNN n_neighbors= = 17 := 0.807064878371
+KNN n_neighbors= = 19 := 0.807534947453
+KNN n_neighbors= = 21 := 0.807937857368
+KNN n_neighbors= = 23 := 0.805856035905
+KNN n_neighbors= = 25 := 0.807064878371
+KNN n_neighbors= = 27 := 0.807534947453
+KNN n_neighbors= = 29 := 0.807937857368
+KNN n_neighbors= = 31 := 0.808609403952
+KNN n_neighbors= = 33 := 0.808810858909
+KNN n_neighbors= = 35 := 0.808878018076
+KNN n_neighbors= = 37 := 0.808945177244
+KNN n_neighbors= = 39 := 0.809079495578
+KNN n_neighbors= = 41 := 0.809146654745
+
